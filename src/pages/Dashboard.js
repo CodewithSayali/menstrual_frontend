@@ -574,7 +574,7 @@ export default function Dashboard() {
           <h2>😊 Hello, {username}!</h2>
         </div>
         <div className="phase-card">
-          <h3>📅 Next Predicted Period: {nextPeriod}</h3>
+          <h3>📅 Next Predicted Period : {nextPeriod}</h3>
           <h3>🔍 Current Phase: {currentPhase}</h3>
           <p>{phaseDescriptions[currentPhase] || "Description not available"}</p>
         </div>
