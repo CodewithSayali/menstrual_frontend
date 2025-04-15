@@ -1,11 +1,15 @@
 import { LineChart, Line, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 
 const cycleData = [
+
+  
   { day: "Day 1", flow: 4 },
   { day: "Day 2", flow: 5 },
   { day: "Day 3", flow: 3 },
   { day: "Day 4", flow: 2 },
   { day: "Day 5", flow: 1 },
+
+
 ];
 
 export default function CycleChart() {
